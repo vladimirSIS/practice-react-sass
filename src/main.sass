@@ -1,0 +1,116 @@
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+header
+    background: url('./images/bg2.jpg')
+    background-repeat: no-repeat
+    height: 40vh
+    background-size: cover
+    background-position: center
+
+header::before
+    content: ""
+    width: 100%
+    height: 40%
+    position: absolute
+    top: 0
+    left: 0
+    background-image: linear-gradient(90deg, #1f2937, #111927)
+    opacity: 0.7
+
+.container
+    width: 80%
+    margin: auto
+    height: 100%
+
+.content
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+
+.title
+    padding: 10px
+    color: #82bf45
+    font-size: 5rem
+    font-family: shlop
+
+.text
+    color: #17a3ac
+    font-size: 17px
+    font-family: shlop
+
+.characters
+    margin-top: 20px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.box
+    width: 30%
+    background-color: #1f2937
+    margin: 10px
+    border-radius: 4px
+    box-shadow: 4px 5px #d9e5d6
+    display: flex
+    img
+        width: 50%
+
+.character
+    width: 100%
+    margin: 10px
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.name
+    font-family: shlop
+    font-size: 40px
+    color: #82bf45
+
+.especie
+    text-align: center
+    padding: 5px
+    background-color:  #364150
+    color: white
+    border-radius: 4px
+    text-transform: uppercase
+    font-size: 19px
+    margin: 3px 0px
+    font-family: shlop
+
+.status
+    text-align: center
+    color: white
+    padding: 4px
+    background-color: #364150
+    border-radius: 4px
+    text-transform: uppercase
+    font-size: 9px
+    margin: 3px 0px
+
+
+
+
+
+// .app {
+//     color: white;
+//     background-color: $reactColor;
+//     width: 100%;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     h1 {
+//         text-transform: uppercase;
+//         font-family: sans-serif;
+//         font-size: 3rem;
+//     }
+// }

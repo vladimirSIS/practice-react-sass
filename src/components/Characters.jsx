@@ -23,7 +23,7 @@ const Characters = () => {
                                 <div className="character">
                                     <h3 className="name" >{item.name}</h3>
                                     <p className="especie">{item.species}</p>
-                                    <p className="especie">{item.status}</p>
+                                    <p className="status">{item.status}</p>
                                 </div>
                             </div>
                         ))

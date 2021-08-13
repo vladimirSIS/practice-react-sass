@@ -1,6 +1,8 @@
 import { Fragment } from "react"
 import Header from './components/Headers'
 import Characters from './components/Characters'
+
+import './components/Header.css'
 import "./main.sass"
 
 function App() {
